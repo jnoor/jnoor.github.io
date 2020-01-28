@@ -12,6 +12,7 @@ header
 	background-image: url('https://wallpapercave.com/wp/wp3874000.png');
 	/**/
 	background-color: #abc;
+	text-align: center;
 	/*https://i.imgur.com/aUhpEz3.jpg*/
 	display: flex;
 	flex-direction: column;
