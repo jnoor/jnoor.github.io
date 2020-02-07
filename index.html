@@ -2,19 +2,19 @@
 <html>
 <head>
 <script>
-	window.onresize = function() {
-    	document.body.height = window.innerHeight;
-	}
-	window.onresize(); // called to initially set the height.
-
-	// function resetHeight(){
-	//     // reset the body height to that of the inner browser
-	//     document.body.style.height = window.innerHeight + "px";
+	// window.onresize = function() {
+ //    	document.body.height = window.innerHeight;
 	// }
-	// // reset the height whenever the window's resized
-	// window.addEventListener("resize", resetHeight);
-	// // called to initially set the height.
-	// resetHeight();
+	// window.onresize(); // called to initially set the height.
+
+	function resetHeight(){
+	    // reset the body height to that of the inner browser
+	    document.body.style.height = window.innerHeight + "px";
+	}
+	// reset the height whenever the window's resized
+	window.addEventListener("resize", resetHeight);
+	// called to initially set the height.
+	resetHeight();
 
 </script>
 
@@ -30,7 +30,7 @@
 	<header>
 		<img src="transparent.png" width=200 alt="We are Claimless">
 		<p> &nbsp; </p>
-		<h3>e-Commerce Fraud Prevention</h3>
+		<h3>E-Commerce Fraud Prevention</h3>
 		<h3>powered by ai</h3>
 	</header>
 
