@@ -3,22 +3,26 @@
 padding: 0px;
 margin: 0px;
 font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
 }
 
 header
 {
 	color: white; /*#9850ff*/
+	background-color: #abc;
+	
 	height: 100vh;
 	/*height: calc(var(--vh, 1vh) * 100);*/
 	/*background-image: url('https://wallpapercave.com/wp/wp3874000.png');*/
 	/**/
-	background-color: #abc;
-	text-align: center;
 	/*https://i.imgur.com/aUhpEz3.jpg*/
+	
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	background-size: cover;
+	/*text-align: center;*/
+	
+	/*background-size: cover;*/
 	justify-content: center;
 	/*margin-bottom: 0px;*/
 }
