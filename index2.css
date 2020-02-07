@@ -1,9 +1,9 @@
 *
 {
-padding: 0px;
+/*padding: 0px;*/
 margin: 0 auto;
 font-family: 'Roboto', sans-serif;
-box-sizing: border-box;
+/*box-sizing: border-box;*/
 }
 
 header
@@ -17,7 +17,7 @@ header
 	/**/
 	/*https://i.imgur.com/aUhpEz3.jpg*/
 	
-	align-items: center;
+	/*align-items: center;*/
 	display: flex;
 	flex-direction: column;
 	/*text-align: center;*/
