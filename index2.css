@@ -2,13 +2,12 @@
 {
 margin: 0 auto;
 font-family: 'Roboto', sans-serif;
+background-color: #abc;
 }
 
 header
 {
-	color: white; /*#9850ff*/
-	background-color: #abc;
-	
+	color: white; /*#9850ff*/	
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
