@@ -8,7 +8,8 @@ font-family: 'Roboto', sans-serif;
 header
 {
 	color: white; /*#9850ff*/
-	height: 100vh;
+	min-height: -webkit-fill-available;
+	/*min-height: 100vh;*/
 	/*background-image: url('https://wallpapercave.com/wp/wp3874000.png');*/
 	/**/
 	background-color: #abc;
